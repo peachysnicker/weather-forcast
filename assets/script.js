@@ -1,4 +1,11 @@
-// find dates from moment.js
+$(document).ready(function () {
+    var searchHistory = [];
+
+    // find dates from moment.js
+
+    //TODAYS DATE
+    const momentDay = moment().format('dddd, MMMM Do');
+    $('.todayDate').prepend(momentDay);
 
 //create event listeners for all buttons to be clicked
 
@@ -16,5 +23,4 @@
 
 
 
-//AJAx? will call the weather app?
-
+//AJAx? will call the weather app
