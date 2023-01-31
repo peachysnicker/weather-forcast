@@ -1,11 +1,11 @@
 body {
-    color: whitesmoke;
-    background-color: #03386a;
+    color: black;
+    background-color: whitesmoke;
 }
 
 header {
     text-align: center;
-    color: #03386a;
+    color: black;
 }
 
 hr {
@@ -13,9 +13,9 @@ hr {
 }
 
 aside {
-    background-color: #044f97;
-    border-radius: 15px;
-    border: 1px solid #023362;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid rgb(215, 211, 211);
 }
 
 .todayWeather {
